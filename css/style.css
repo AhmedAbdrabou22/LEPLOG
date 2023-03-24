@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.filter{
+    cursor: pointer;
+}
+.input-group{
+    background-color: #fff;
+}
+input{
+    /* outline: none; */
+    border: 1px solid;
+    padding-left: 8px;
+}
+.inputs{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.modal-body p{
+    color: #717171;
+}
+
+.categories span{
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.scroll-tabs {
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	background: #eee;
+}
+
+.scroll-tabs .nav-tabs {
+	border-bottom: none;
+}
+.scroll-tabs .nav-tabs.nav-justified > li > a {
+	border: none;
+	border-radius: 0;
+}
+.scroll-tabs .nav-tabs.nav-justified > .active > a, .scroll-tabs .nav-tabs.nav-justified > .active > a:hover, .scroll-tabs .nav-tabs.nav-justified > .active > a:focus {
+	border: none;
+}
+.scroll-tabs .nav-tabs > li.active > a, .scroll-tabs .nav-tabs > li.active > a:hover, .scroll-tabs .nav-tabs > li.active > a:focus {
+	color: red;
+	cursor: default;
+	background-color: transparent;
+	border: none;
+	border-bottom-color: transparent;
+	opacity: 1;
+}
+.scroll-tabs .nav-tabs > li {
+	margin-bottom: 0;
+	line-height: 50px;
+}
+.scroll-tabs .nav-tabs > li > a {
+    padding: 1.125rem 1.5rem 1.0625rem;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-right: 0;
+    line-height: 1;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.scroll-tabs .nav-tabs > li > a:hover, .scroll-tabs .nav-tabs > li > a:focus {
+	border-color: transparent;
+	background-color: #f2f2f2;
+}
+.scroll-tabs .scroll-tab-active-bar {
+	position: absolute;
+	bottom: 0;
+	width: 25%;
+	height: 3px;
+	background: #000;
+	transition: all 0.2s ease-in-out;
+}
+.scroll-tabs-bg {
+	background-color: #000;
+}
+.scroll-tabs-bg .nav-tabs > li > a {
+	color: black;
+    font-size: 20px;
+}
+.scroll-tabs-bg .nav-tabs > li > a > img{
+    width:25px;
+}
+.scroll-tabs-bg .nav-tabs > li > a > span{
+    margin-right:15px;
+}
+.scroll-tabs-bg .nav-tabs > li .dropdown-menu a {
+	color: #333333;
+}
+.scroll-tabs-bg .nav-tabs > li.active > a, .scroll-tabs-bg .nav-tabs > li.active > a:hover, .scroll-tabs-bg .nav-tabs > li.active > a:focus {
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+.scroll-tabs-bg .scroll-tabs-scroll-right, .scroll-tabs-bg .scroll-tabs-scroll-left {
+    background-color: #fff;
+    color: black;
+    width:50px;
+    height: 50px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+.scroll-tabs-scroll-container {
+	display: block;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+    background-color: #fff;
+}
+.scroll-tabs-scroll-right {
+	float: right;
+	right: 0;
+	top: 0;
+}
+.scroll-tabs-scroll-left {
+	float: left;
+	left: 0;
+}
+.scroll-tabs-scroll-right, .scroll-tabs-scroll-left {
+	position: absolute;
+	z-index: 99;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	white-space: no-wrap;
+	vertical-align: middle;
+	padding: 0.75rem 1.5rem 0.375rem;
+	background-color: #fff;
+	color: #868e96;
+	line-height: 1.7;
+}
+.tab-content {
+    margin-top: 25px;
+	background: #fff;
+	padding: 15px;
+}
+h1 {
+	font-size: 90px;
+	color:#000;
+	position: absolute;
+	top: 45%;
+	text-align: center;
+	font-weight: 900;
+	display: block;
+	left: 0;
+	right: 0;
+	line-height: 110px;
+}
+.slider{
+    width:90%;
+    margin: auto;
+}
+
+.card img{
+	width:100% !important;
+	max-height:150px;
+}
+
+.cars > div{
+	padding:10px;
+}
+
+
+
+@media (max-width: 767px) {
+	.scroll-tabs {
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+	.inputs{
+		flex-direction: column;
+	}
+	.inputs div{
+		margin: 5px;
+	}
+}
