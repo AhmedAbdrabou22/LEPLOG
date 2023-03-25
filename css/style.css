@@ -184,6 +184,80 @@ h1 {
 	padding:10px;
 }
 
+.homes > div{
+	margin-bottom:15px;
+	padding: 10px;
+}
+
+.dropdown-menu{
+	position: absolute !important;
+	left:-150% !important;
+	width:450px;
+	margin-top:10px !important;
+}
+.pons{
+	color:#717171;
+}
+.circle, .circle1{
+	width:10px;
+	height: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-color: green;
+	margin-top:10px;
+}
+.circle1{
+	background-color: red;
+}
+
+
+
+.login-form {
+	width: 350px;
+	margin: 0 auto;
+	padding: 30px 20px;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+}
+.login-form h1 {
+	margin: 0 0 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #333;
+}
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	background: #f1f1f1;
+	margin-bottom: 15px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+.login-form input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width:100%;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+}
+
+
 
 
 @media (max-width: 767px) {
