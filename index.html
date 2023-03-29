@@ -28,866 +28,1244 @@
 
 <body>
 
-    <!--Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container w-75">
-            <a class="navbar-brand" href="#">LEPGO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav  mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">اعدادت الحساب</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">العروض</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">المفضله</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">تبديل المنتجات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">الاعدادات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">عن التطبيق</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">تواصل معنا</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown btn-group text-center">
-                            <a href="#" class="nav-link btn dropdown-toggle" role="button" id="dropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">الاشعارات</a>
+    <!--Start of Section nav bar-->
+    <section class="nav">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!--Div Profile-->
+                <div class="profile">
+                    <img src="imgs/download (1).jfif" alt="Person">
+                </div>
+                <!--Div Profile-->
 
-                            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">تم انتهاء مدة حجز البلايستيشن 4</a>
-                                <a class="dropdown-item" href="#">تم اضافة بطاقة الدفع</a>
-                                <a class="dropdown-item" href="#">BMW 50 X6 First Generation</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">التفضيلات</a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown btn-group text-center">
-                            <a href="#" class="nav-link btn dropdown-toggle" role="button" id="dropdownMenuLink2"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">الدردشات</a>
+                <!--Div For Logo-->
+                <div class="logo">
+                    <p>lep<span>go</span> </p>
+                </div>
+                <!--Div For Logo-->
 
-                            <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink2">
-                                <a class="dropdown-item" href="#">
-                                    <div class="d-flex justify-content-around align-baseline" dir="ltr">
-                                        <div>
-                                            <span>هل تريد مد فترة الدفع</span>
-                                            <br>
-                                            <span class="pons">شكرا لك</span>
-                                        </div>
-                                        <div><img src="imgs/download (2).jfif" class="w-25" alt="person"></div>
-                                        <div class="circle"></div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <div class="d-flex justify-content-around align-baseline" dir="ltr">
-                                        <div>
-                                            <span>هل تريد مد فترة الدفع</span>
-                                            <br>
-                                            <span class="pons">شكرا لك</span>
-                                        </div>
-                                        <div><img src="imgs/download (1).jfif" class="w-25" alt="person"></div>
-                                        <div class="circle"></div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <div class="d-flex justify-content-around align-baseline" dir="ltr">
-                                        <div>
-                                            <span>هل تريد مد فترة الدفع</span>
-                                            <br>
-                                            <span class="pons">شكرا لك</span>
-                                        </div>
-                                        <div><img src="imgs/download (3).jfif" class="w-25" alt="person"></div>
-                                        <div class="circle1"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"  data-toggle="modal" data-target="#exampleModal1">تسجيل الدخول</a>
-                    </li>
-                </ul>
+                <!--Div For Some Settings-->
+                <div class="setting d-flex justify-content-between align-items-center">
+                    <div class="mx-2 gear"><i class="fa-solid fa-gear"></i></div>
+                    <div>
+                        <button class="btn">Sign In</button>
+                        <button class="btn">Log in</button>
+                    </div>
+                </div>
+                <!--Div For Some Settings-->
+
             </div>
         </div>
-    </nav>
-    <!--Search-->
-    <section class="mt-5 filter">
-        <div class="d-flex justify-content-between align-items-center container">
-            <div class="input-group mb-3 w-75 my-2">
-                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="search" class="form-control" placeholder="Search" aria-label="Username"
-                    aria-describedby="basic-addon1">
+    </section>
+    <!--End of Section nav bar-->
+
+    <!--Start Section for search-->
+    <Section class="search">
+        <div class="input-group mt-3 w-75 mx-auto my-2">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="search" class="form-control" placeholder="Search" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+    </Section>
+    <!--End Section For Search-->
+
+    <!--Section for Overlay-->
+    <section class="overlay">
+        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+        <div class="container">
+            <div class="fact">
+                <!--Links For Communication-->
+                <div class="links d-flex">
+                    <div><i class="fa-brands fa-facebook"></i></div>
+                    <div><i class="fa-brands fa-whatsapp"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-meta"></i></div>
+                </div>
+                <!--For Setting Profile-->
+                <div class="profile_settings">
+                    <div>
+                        <img src="imgs/profile.svg" alt="" class="mx-5">
+                        <span>Profile Setting</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div>
+                        <img src="imgs/discount.svg" alt="" class="mx-5">
+                        <span>available Offers</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div>
+                        <img src="imgs/favorite.svg" alt="" class="mx-5">
+                        <span>Favourite</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div>
+                        <img src="imgs/cogwheel.svg" alt="" class="mx-5">
+                        <span>Setting</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div>
+                        <img src="imgs/phone-call.svg" alt="" class="mx-5">
+                        <span>Contact Us</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div>
+                        <img src="imgs/upload-file.svg" alt="" class="mx-5">
+                        <span class="text-danger fs-3">Log Out</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <!--Img Profile-->
+                <div class="image_profile">
+                    <img src="imgs/download (2).jfif" alt="">
+                </div>
             </div>
-            <div class="text-center shadow border rounded p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <span><i class="fa-solid fa-filter mx-2"></i></span><span>Filter</span>
+        </div>
+    </section>
+    <!--Section for Overlay-->
+
+
+
+    <!--Section for categories-->
+    <section class="mt-5">
+        <div class="container">
+
+            <!--For flex Category and watch-->
+            <div class="d-flex justify-content-between align-items-baseline">
+                <div>
+                    <p class="fs-4">All Categories</p>
+                </div>
+                <div>
+                    <a href="#" class="link fs-4">Watch All</a>
+                </div>
             </div>
 
-            <!-- Button trigger modal -->
+            <!--Slider For All categories-->
+            <div class="mt-5 slider">
+                <div class="scroll-card scroll-z-depth">
+                    <div class="scroll-tabs scroll-tabs-bg" scroll="true">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="active">
+                                <a href="#available" data-toggle="tab">
+                                    <img src="imgs/freepik--Characters--inject-2.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#one" data-toggle="tab">
+                                    <img src="imgs/Building-amico.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#two" data-toggle="tab">
+                                    <img src="imgs/Consulting-bro1.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#three" data-toggle="tab">
+                                    <img src="imgs/Couple bicycle-bro1.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#four" data-toggle="tab">
+                                    <img src="imgs/freepik--Characters--inject-2.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#five" data-toggle="tab">
+                                    <img src="imgs/Building-amico.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#six" data-toggle="tab">
+                                    <img src="imgs/Consulting-bro1.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#seven" data-toggle="tab">
+                                    <img src="imgs/freepik--Characters--inject-2.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#eight" data-toggle="tab">
+                                    <img src="imgs/Building-amico.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#nine" data-toggle="tab">
+                                    <img src="imgs/freepik--Characters--inject-2.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#ten" data-toggle="tab">
+                                    <img src="imgs/Building-amico.svg" class="vector" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#eleven" data-toggle="tab">
+                                    <img src="imgs/Consulting-bro1.svg" class="vector" alt="">
+                                </a>
+                            </li>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Details Of Choice</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h2 class="my-2">Range Of Price</h2>
-                            <div class="inputs">
-                                <div>
-                                    <form action="">
-                                        <input type="text" class="py-2 rounded" placeholder="Min Price">
-                                    </form>
-                                </div>
-                                <div>
-                                    <form action="">
-                                        <input type="text" class="py-2 rounded" placeholder="Max Price">
-                                    </form>
+                        </ul>
+                    </div>
+
+                    <div class="scroll-card-body">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane" id="one">
+                                <div class="row cars">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://rentcarsegypt.com/wp-content/uploads/2016/08/Sportage.webp"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/download.jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/download (1).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/download (2).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images.jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (1).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/download (3).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (2).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/download (4).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (3).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (4).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (5).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Kia Picant Atra</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <hr>
-                            <div>
-                                <h2>Rental term : </h2>
-                                <div>
-                                    <p>Choice Rental term :</p>
-                                    <input type="radio" id="one_day" name="fav_language" value="one_day">
-                                    <label for="one_day">One Day</label><br>
-                                    <input type="radio" id="one_week" name="fav_language" value="one_week">
-                                    <label for="one_week">One Week Or More</label><br>
-                                    <input type="radio" id="more_month" name="fav_language" value="more_month">
-                                    <label for="more_month">one Month Or More</label>
+
+                            <div role="tabpanel" class="tab-pane active" id="available">
+                                <div class="owl-theme owl-carousel">
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">فله الساحل الشمالي </h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up
+                                                the bulk of the card's content.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="two">
+                                <div class="row homes">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">فله الساحل الشمالي </h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="three">
+                                <div class="row homes">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (10).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">MOtoCycle</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (8).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (6).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (7).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="four">
+                                <div class="row homes">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">فله الساحل الشمالي </h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of the card's content.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="five">
+                                Lorem, ndis tempore consequatur quis totam similique reprehenderit soluta ducimus maxime
+                                dicta
+                                eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Vs id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Vel
+                                facere perferendis tempore consequatur quis totam similique reprehenderit soluta ducimus
+                                maxime
+                                dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet
+                                consectetur adipisicing elit. V
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="six">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maioreel facere perferendis tempore consequatur quis totam similique
+                                reprehenderit soluta ducimus maxime dicta eius, minus magnam quia ipsa mollitia maiores
+                                id
+                                ipsam.
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="seven">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Vel facere perferendis tempore consequatur quis totam similique reprehenderit soluta
+                                ducimus
+                                maxime dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor
+                                sit amet
+                                consectetur adipisicing elit. Vel facere perferendis tempore consequatur quis totam
+                                similique
+                                reprehenderit soluta ducimus maxime dicta eius, minus magnam quia ipsa mollitia maiores
+                                id
+                                ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis
+                                tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Vel facere perferendis tempore consequatur quis totam similique reprehenderit soluta
+                                ducimus
+                                maxime dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="eight">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Vel facere perferendismaiores id ipsam.
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="nine">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique maiores id ipsam.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="ten">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
+                                consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus
+                                magnam
+                                quia ipsa mollitia maiores id ipsam.
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="eleven">
+                                Eleven
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Slider For All categories-->
+        </div>
+    </section>
+    <!--Section categories-->
+
+    <!--Section Overlay Two For Watch all categories-->
+    <section class="overlayTwo">
+        <div class="closeTwo"><i class="fa-solid fa-xmark"></i></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Car driving-bro (1).svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cars</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Building-amico.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Buildings</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Fishing-pana.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fisihg Tools</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Wedding planner-amico.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Weeding Planner</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/World Hepatitis Day-bro.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Medical Devices</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Smart home-bro.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Smart Homes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/محلات_تجارية.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Commercial SHops</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Manufacturing Process-bro.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Manufacturing Devices</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/Couple bicycle-bro.svg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Couble Cycle</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Section Overlay Two For Watch all categories-->
+
+
+
+    <!--Available Offers-->
+    <section class="offer">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="fs-2">Available Offers</p>
+                </div>
+                <div>
+                    <a href="#" class="link">Watch All</a>
+                </div>
+            </div>
+
+            <!--Caursol For Available Offers-->
+            <div>
+                <div class="owl-theme owl-carousel">
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">فله الساحل الشمالي </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                            src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Caursol For Available Offers-->
+        </div>
+    </section>
+    <!--Available Offers-->
+
+    <!--Products May Be Like-->
+    <section class="product">
+        <div class="container">
+            <div>
+                <h3>Products May Be Like</h3>
+            </div>
+
+            <div class="product_details">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="imgs/Group 70@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW</h5>
+                                <p class="card-text">The most luxurious and luxurious car... as it has a front face</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src="imgs/tag.svg" alt="tag">
+                                        <span>500 For <span id="day">Day</span></span>
+                                    </div>
+                                    <div>
+                                        <img src="imgs/star.svg" alt="tag">
+                                        <span>4.5</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!--Scorabble Tabs With content-->
-    <div class="mt-5 slider">
-        <div class="scroll-card scroll-z-depth">
-            <div class="scroll-tabs scroll-tabs-bg" scroll="true">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#available" data-toggle="tab">العروض المتاحه</a>
-                    </li>
-                    <li><a href="#one" data-toggle="tab">سيارات <i class="fa-solid fa-car-rear"></i></a>
-                    </li>
-                    <li>
-                        <a href="#two" data-toggle="tab"><span>ترفيه</span> <img
-                                src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
-                                alt=""></a>
-                    </li>
-                    <li><a href="#three" data-toggle="tab"> <span>دراجات</span> <i
-                                class="fa-solid fa-person-biking"></i></a></li>
-                    <li><a href="#four" data-toggle="tab"><span>منازل وشقق</span><img
-                                src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"
-                                alt=""></a></li>
-                    <li><a href="#five" data-toggle="tab"><span>غرف مخصصه</span><img
-                                src="	https://a0.muscache.com/pictures/eb7ba4c0-ea38-4cbb-9db6-bdcc8baad585.jpg"
-                                alt=""></a></li>
-                    <li><a href="#six" data-toggle="tab"><span>الاجهزه الكهربائيه</span> <i
-                                class="fa-solid fa-plug-circle-bolt"></i> </a></li>
-                    <li><a href="#seven" data-toggle="tab"><span>ملاعب</span> <i class="fa-solid fa-flag-checkered"></i>
-                        </a></li>
-                    <li><a href="#eight" data-toggle="tab"><span>ادوات صحيه</span> <i class="fa-solid fa-dumbbell"></i>
-                        </a></li>
-                    <li><a href="#nine" data-toggle="tab"><span>اماكن عمل</span><img
-                                src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg"
-                                alt=""></a></li>
-                    <li><a href="#ten" data-toggle="tab"><span>عشوائي</span> <i class="fa-solid fa-shuffle"></i> </a>
-                    </li>
-                    <li><a href="#eleven" data-toggle="tab"><span>موصي به</span> <i class="fa-regular fa-clipboard"></i>
-                        </a></li>
-                </ul>
-            </div>
-
-            <div class="scroll-card-body">
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane" id="one">
-                        <div class="row cars">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://rentcarsegypt.com/wp-content/uploads/2016/08/Sportage.webp"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/download.jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/download (1).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/download (2).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images.jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (1).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/download (3).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (2).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/download (4).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (3).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (4).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (5).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Kia Picant Atra</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane active" id="available">
-                        <div class="owl-theme owl-carousel">
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">فله الساحل الشمالي </h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top"
-                                    src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="two">
-                        <div class="row homes">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">فله الساحل الشمالي </h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="three">
-                        <div class="row homes">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (10).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MOtoCycle</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (8).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (6).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (7).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/images (9).jfif" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="four">
-                        <div class="row homes">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/0720a152-5aff-492d-b57b-8b4c39e5b9af.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">فله الساحل الشمالي </h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-771523425951892014/original/523b2f5b-8d28-4ece-8e46-6147d6860ef0.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-792511360547148110/original/68f37ead-dabb-4d2f-a1e0-b5f90ea29b00.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/4fc1dba2-b181-4869-a78f-adb2f27494f1.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/prohost-api/Hosting-822920593743349207/original/ba27046e-7f25-4e3f-b726-ccc683cca07c.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/f6a5a535-b63a-45fa-aa02-5cef2162fa45.jpg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card">
-                                    <img class="card-img-top"
-                                        src="https://a0.muscache.com/im/pictures/miso/Hosting-613023371501458846/original/8fad9fa6-2a39-4ac9-b858-e692bc2aa751.jpeg?im_w=720"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="five">
-                        Lorem, ndis tempore consequatur quis totam similique reprehenderit soluta ducimus maxime dicta
-                        eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Vs id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-                        facere perferendis tempore consequatur quis totam similique reprehenderit soluta ducimus maxime
-                        dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. V
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="six">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maioreel facere perferendis tempore consequatur quis totam similique
-                        reprehenderit soluta ducimus maxime dicta eius, minus magnam quia ipsa mollitia maiores id
-                        ipsam.
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="seven">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel facere perferendis tempore consequatur quis totam similique reprehenderit soluta ducimus
-                        maxime dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Vel facere perferendis tempore consequatur quis totam similique
-                        reprehenderit soluta ducimus maxime dicta eius, minus magnam quia ipsa mollitia maiores id
-                        ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel facere perferendis tempore consequatur quis totam similique reprehenderit soluta ducimus
-                        maxime dicta eius, minus magnam quia ipsa mollitia maiores id ipsam.
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="eight">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Vel facere perferendismaiores id ipsam.
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="nine">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique maiores id ipsam.
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="ten">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere perferendis tempore
-                        consequatur quis totam similique reprehenderit soluta ducimus maxime dicta eius, minus magnam
-                        quia ipsa mollitia maiores id ipsam.
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="eleven">
-                        Eleven
-                    </div>
-                </div>
-            </div>
+    <!--Products May Be Like-->
+
+    <!--section Footer-->
+    <section class="nav_footer">
+        <div class="footer_items d-flex justify-content-between align-items-center ">
+            <div><a href=""><img src="imgs/alarm.svg" alt="alarm"></a></div>
+            <div><a href=""><img src="imgs/add_to_photos.svg" alt="alarm"></a></div>
+            <div><a href=""><img src="imgs/home_filled.svg" alt="alarm"></a></div>
+            <div><a href=""><img src="imgs/favorite.svg" alt="alarm"></a></div>
+            <div><a href=""><img src="imgs/13-chat.svg" alt="alarm"></a></div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login / Sign up</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="login-form">
-                        <!-- <h1>Login</h1> -->
-                        <form action="">
-                            <input type="text" placeholder="Username" required>
-                            <input type="number" placeholder="Telephone" required>
-                            <input type="email" placeholder="E-Mail" required>
-                            <input type="password" placeholder="Password" required>
-                            <p>Type Of Account : </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <input type="radio" id="personal" name="fav_language" value="personal">
-                                    <label for="personal">personal Account</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="company" name="fav_language" value="company">
-                                    <label for="company">Company Account</label>
-                                </div>
-                            </div>
-                            <br>
-                            <input type="submit" value="Login">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+    </section>
+    <!--section Footer-->
 
 
 

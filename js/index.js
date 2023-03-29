@@ -1,3 +1,27 @@
+let overlay = document.querySelector('.overlay');
+let overlayTwo = document.querySelector('.overlayTwo');
+let link = document.querySelector('.link')
+let close_overlay = document.querySelector('.close');
+let close_overlay_Two = document.querySelector('.closeTwo');
+let setting=  document.querySelector('.gear');
+setting.addEventListener('click', function(){
+    overlay.style.transform='translateX(0%)';
+    overlay.style.transition='0.5s all ease';
+})
+close_overlay.addEventListener('click', function(){
+    overlay.style.transform='translateX(-100%)';
+    overlay.style.transition='0.5s all ease';
+})
+close_overlay_Two.addEventListener('click', function(){
+    overlayTwo.style.transform='translateX(-100%)';
+    overlayTwo.style.transition='0.5s all ease';
+})
+
+link.addEventListener('click', function(){
+    overlayTwo.style.transform='translateX(0%)';
+    overlayTwo.style.transition='0.5s all ease';
+})
+
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 var commons = function () {
@@ -443,9 +467,9 @@ $('.owl-carousel').owlCarousel({
             nav:false
         },
         1000:{
-            items:5,
+            items:4,
             nav:true,
-            loop:false
+            loop:true
         }
     }
 })
